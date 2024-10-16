@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#201E28"
+    tools:context=".fragments.SignInFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Вход"
+            android:textStyle="bold"
+            android:textColor="#fdfdfd"
+            android:textSize="20sp"
+            android:padding="36dp"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="@color/white"/>
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/baseline_account_circle_24"/>
+
+        <EditText
+            android:id="@+id/userNameSignInEditTextET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Username"
+            android:textColor="#fdfdfd"
+            android:textColorHint="#6a6a6a"
+            android:textSize="20sp"
+            android:padding="18dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/passwordSignInEditTextET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Password"
+            android:textColor="#fdfdfd"
+            android:textColorHint="#6a6a6a"
+            android:textSize="20sp"
+            android:padding="18dp"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/loginSignInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вход"
+            android:padding="18dp"
+            android:textSize="20sp"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="#FFF5D52A"
+            android:textColor="#5e4602"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

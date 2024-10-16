@@ -1,7 +1,9 @@
-package com.example.viewpager2
+package com.example.viewpager2.activities
 
 import android.os.Bundle
 import androidx.fragment.app.FragmentActivity
+import com.example.viewpager2.models.Picture
+import com.example.viewpager2.adapters.ViewPagerAdapter
 import com.example.viewpager2.databinding.ActivityMainBinding
 
 class MainActivity : FragmentActivity() {
